@@ -1,0 +1,2 @@
+Logging to /home/herald/Documents/SEIL/project/eplog/openai-2019-12-03-21-16-38-273924
+********** Iteration 0 ************

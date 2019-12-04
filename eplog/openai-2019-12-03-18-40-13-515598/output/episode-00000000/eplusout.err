@@ -1,0 +1,24 @@
+Program Version,EnergyPlus, Version 9.0.1-bb7ca4f0da, YMD=2019.12.03 18:40,
+   ** Severe  ** <root>[ElectricEquipment:ITE:AirCooled][EastDataCenter_Equip][air_flow_calculation_method] - "Watts/Area" - Failed to match against any enum values.
+   ** Severe  ** <root>[ElectricEquipment:ITE:AirCooled][EastDataCenter_Equip][design_electric_power_supply_efficiency] - Value type not permitted by 'type' constraint.
+   ** Severe  ** <root>[ElectricEquipment:ITE:AirCooled][EastDataCenter_Equip][design_entering_air_temperature] - Value type not permitted by 'type' constraint.
+   ** Severe  ** <root>[ElectricEquipment:ITE:AirCooled][EastDataCenter_Equip][design_fan_air_flow_rate_per_power_input] - Value type not permitted by 'type' constraint.
+   ** Severe  ** <root>[ElectricEquipment:ITE:AirCooled][EastDataCenter_Equip][design_recirculation_fraction] - Value type not permitted by 'type' constraint.
+   ** Severe  ** <root>[ElectricEquipment:ITE:AirCooled][EastDataCenter_Equip][environmental_class] - "AdjustedSupply" - Failed to match against any enum values.
+   ** Severe  ** <root>[ElectricEquipment:ITE:AirCooled][EastDataCenter_Equip][fraction_of_electric_power_supply_losses_to_zone] - Value type not permitted by 'type' constraint.
+   ** Severe  ** <root>[ElectricEquipment:ITE:AirCooled][EastDataCenter_Equip][watts_per_zone_floor_area] - Value type not permitted by 'type' constraint.
+   ** Severe  ** <root>[RunPeriod][WholeYearDay][day_of_week_for_start_day] - "Yes" - Failed to match against any enum values.
+   ** Severe  ** <root>[RunPeriod][WholeYearDay][end_day_of_month] - Value type not permitted by 'type' constraint.
+   ** Severe  ** <root>[RunPeriod][WholeYearDay][end_month] - "31" - Expected number less than or equal to 12.000000
+   ** Severe  ** <root>[RunPeriod][WholeYearDay][end_year] - Value type not permitted by 'type' constraint.
+   ** Severe  ** <root>[ZoneHVAC:EquipmentList][East Zone Equipment][equipment][0][zone_equipment_object_type] - "East Zone ATU" - Failed to match against any enum values.
+   ** Warning ** Version: in IDF="8.8" not the same as expected="9.0"
+   **  Fatal  ** Errors occurred on processing input file. Preceding condition(s) cause termination.
+   ...Summary of Errors that led to program termination:
+   ..... Reference severe error count=13
+   ..... Last severe error=<root>[ZoneHVAC:EquipmentList][East Zone Equipment][equipment][0][zone_equipment_object_type] - "East Zone ATU" - Failed to match against any enum values.
+   ************* Warning:  Node connection errors not checked - most system input has not been read (see previous warning).
+   ************* Fatal error -- final processing.  Program exited before simulations began.  See previous error messages.
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Terminated--Fatal Error Detected. 1 Warning; 13 Severe Errors; Elapsed Time=00hr 00min  0.19sec
